@@ -1,0 +1,33 @@
+#app4 {
+    overflow: hidden;
+}
+
+#app4 > div {
+    height: 100%;
+    background: #fff1b9;
+    display: grid;
+    place-items: center;
+}
+
+#app4 #circle {
+    height: 20vw;
+    width: 20vw;
+    background: #ff7761;
+    border-radius: 50%;
+}
+
+#app4 #circle:hover {
+    animation: color 2s infinite alternate;
+}
+
+@keyframes color {
+    0% {
+        background: #ff7761;
+    }
+    50% {
+        background: #3ac569;
+    }
+    100% {
+        background: #008c9e;
+    }
+}

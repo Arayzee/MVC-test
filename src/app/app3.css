@@ -1,0 +1,25 @@
+#app3 {
+    overflow: hidden;
+}
+
+#app3 > div {
+    height: 100%;
+    position: relative;
+    background: #cff09e;
+}
+
+#app3 #rect {
+    height: 7vh;
+    width: 7vh;
+    background: #8283a7;
+    top: 5vh;
+    left: 5vh;
+    position: absolute;
+    transition: all 1s linear;
+}
+
+#app3 #rect.moved {
+    top: calc(100% - 12vh);
+    left: calc(100% - 12vh);
+    border-radius: 50%;
+}

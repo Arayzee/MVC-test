@@ -1,0 +1,44 @@
+#app2 {
+    overflow: hidden;
+}
+
+#app2 > div {
+    display: grid;
+    grid-template-rows: 50px auto;
+    height: 100%;
+}
+
+#app2 #topbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: #454552;
+    color: #c9d6de;
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+#app2 #topbar > div{
+    height: 100%;
+    width: 100%;
+}
+
+#app2 #topbar .selected {
+    background: #e85a71;
+    color: white;
+}
+
+#app2 #view div {
+    height: 100%;
+    display: none;
+    background: #d8e9ef;
+    padding: 20px;
+    font-size: 18px;
+    color: #454552;
+    white-space: pre-wrap;
+    line-height: 30px;
+}
+
+#app2 #view .active {
+    display: block;
+}
